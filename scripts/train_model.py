@@ -18,8 +18,8 @@ import joblib               # For saving/loading trained model
 
 # STEP 1: DATA LOADING
 # Load Kaggle competition datasets
-train_data = pd.read_csv('./data/train.csv')  # Training data with survival labels
-test_data = pd.read_csv('./data/test.csv')    # Test data for final predictions
+train_data = pd.read_csv('../data/train.csv')  # Training data with survival labels
+test_data = pd.read_csv('../data/test.csv')    # Test data for final predictions
 
 # STEP 2: DATA EXPLORATION
 # Explore training data to understand its characteristics

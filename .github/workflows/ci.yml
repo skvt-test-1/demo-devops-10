@@ -35,4 +35,4 @@ jobs:
       # Step 4: Execute ML training pipeline
       - name: Run training script
         run: |
-          python train_model.py
+          cd scripts/ && python train_model.py
