@@ -1,0 +1,13 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "6.71.0"
+    }
+  }
+}
+
+provider "aws" {
+  # Configuration options
+  region = "us-east-2" # enter your aws region
+}
